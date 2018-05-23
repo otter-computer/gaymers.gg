@@ -22,3 +22,78 @@ $table-border-color: #059bba;
 $hr-border-color: #059bba;
 
 @import "{{ site.theme }}";
+
+.logo {
+  @include large {
+    max-width: 24rem;
+  }
+
+  @include medium {
+    max-width: 16rem;
+  }
+
+  @include small {
+    max-width: 10rem;
+  }
+}
+
+.discord-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px 10px 50px;
+  background-color: #7289DA;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all ease-out 150ms;
+}
+
+.discord-button:hover {
+  background-color: #4A67Cf;
+  text-decoration: none;
+}
+
+.discord-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  background-image: url('/assets/images/discord-logo-white.svg');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  margin-top: 0 !important;
+  border-top: none !important;
+  word-wrap: break-word;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+  }
+}
