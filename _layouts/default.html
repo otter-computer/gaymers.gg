@@ -1,38 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    {% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90336374-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+{% include head.html %}
+<section class="page-header small-nav">
+  <a href="https://gaymers.gg/" class="home-link">
+    <img class="logo" src="/assets/images/gaymers-logo.svg" alt="Gaymers Logo">
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+  </a>
 
-      gtag('config', 'UA-90336374-1');
-    </script>
-  </head>
-  <body>
-    <section class="page-header">
-      <img class="logo" src="/assets/images/gaymers-logo.svg" alt="Gaymers Logo">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+  <a href="https://discord.gg/gaymers" class="discord-button">Join us on Discord</a>
+</section>
 
-      <a href="https://discord.gg/gaymers" class="discord-button">Join us on Discord</a>
-    </section>
+<section class="main-content">
+  {{ content }}
+</section>
 
-    <!-- <section class="main-content">
-      {{ content }}
-    </section> -->
-
-    <footer class="site-footer">
-      <span>{{ site.footer | default: '' }}</span>
-      <span>❤️️🧡💛💚💙💜</span>
-    </footer>
-  </body>
-</html>
+{% include footer.html %}

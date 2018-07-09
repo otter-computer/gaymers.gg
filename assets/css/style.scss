@@ -66,6 +66,39 @@ $hr-border-color: #059bba;
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.small-nav {
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  .logo {
+    max-width: 3rem;
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .home-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .discord-button {
+    margin-left: auto;
+  }
+}
+
 footer {
   margin-top: 0 !important;
   border-top: none !important;
