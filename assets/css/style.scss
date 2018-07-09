@@ -96,6 +96,10 @@ $hr-border-color: #059bba;
 
   .discord-button {
     margin-left: auto;
+
+    @include small {
+      display: none;
+    }
   }
 }
 
