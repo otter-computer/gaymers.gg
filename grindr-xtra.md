@@ -1,4 +1,4 @@
-<p style="width: 100%; text-aligh: center; font-size: 72; ">💩</p>
+<p style="width: 100%; text-align: center; font-size: 200px; ">💩</p>
 
 > I'm not funny.
 —Spazer, 2019
