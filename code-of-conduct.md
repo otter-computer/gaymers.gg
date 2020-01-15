@@ -36,7 +36,7 @@ Certain channels have additional rules and guidelines that apply in addition to 
 This code of conduct applies to all of this community's spaces, including public channels, private channels, and related direct messages, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the staff.
 
 ## Reporting
-If you are having trouble with a member of our community, notice that someone else is, or have any other concerns, please contact the staff via the <span class="admin">@Admin</span> or <span class="moderator">@Moderator</span> tags in chat, or via DM. If the person in question is on the staff team, they will not be involved in handling or resolving the incident.
+If you are having trouble with a member of our community, notice that someone else is, or have any other concerns, please contact the staff via the **@Staff** tags in chat, or via DM. If the person in question is on the staff team, they will not be involved in handling or resolving the incident.
 
 The staff team will respond to any complaint as promptly as we possibly can. If you do not get a timely response (for example, if no staff are currently online) then please put your personal safety and well-being first, and consider logging out until a staff member is available.
 
