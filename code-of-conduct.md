@@ -32,6 +32,9 @@ If you have questions or concerns about these issues please feel free to message
 ## Channel-Specific Rules
 Certain channels have additional rules and guidelines that apply in addition to the global server rules. You can find these in the channel descriptions.
 
+## Underaged Rules
+For your safety and the safety our of members, we ask that underaged users refrain from partaking in conversations that are considered NSFW including, but not limited to, pornographic material or sex. We also ask that underaged users refrain from disclosing their relationship status or attempt to seek a relationship on the server.
+
 ## Applicability and Scope
 This code of conduct applies to all of this community's spaces, including public channels, private channels, and related direct messages, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the staff.
 
