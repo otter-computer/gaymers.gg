@@ -29,6 +29,9 @@ This community will not tolerate the following behavior:
 
 If you have questions or concerns about these issues please feel free to message a staff member.
 
+## Server Language
+Although everyone is welcome on our server, English is our server's primary language. Our staff are only able to effectively moderate in English. Short conversations can be had in other languages, but we ask that you mainly use English.
+
 ## Channel-Specific Rules
 Certain channels have additional rules and guidelines that apply in addition to the global server rules. You can find these in the channel descriptions.
 
