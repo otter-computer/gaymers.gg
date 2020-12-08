@@ -1,0 +1,43 @@
+.anniversary-section, .feedback-section {
+	width: 560px;
+	margin: 0 auto;
+	padding: 0.5em 0;
+}
+
+.video .anniversary-section {
+	margin-top: 2em;
+}
+
+.feedback-section {
+	clear:both;
+}
+
+h2, h3 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #BD51FF;
+}
+
+.video iframe {
+	padding: 0 0 1em 0;
+}
+
+.staff-list {
+	width:280px;
+	float: left;
+	text-align: center
+}
+
+.nitro-list {
+	width:280px;
+	float:right;
+	text-align: center
+}
+
+.spotify-playlist {
+	width:270px;
+	padding: 0 10px;
+}
+
+span.curators {
+	font-size: 0.8em;
+}
